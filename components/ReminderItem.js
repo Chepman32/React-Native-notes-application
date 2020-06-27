@@ -5,7 +5,7 @@ import * as Font from 'expo-font';
 import { Ionicons } from '@expo/vector-icons';
 import { View, StyleSheet } from 'react-native';
 function ReminderItem( {route, navigation} ) {
-  const title = navigation.state.params.title;
+  const title = routes.params.title;
   console.log(title)
   return (
     <Container>
